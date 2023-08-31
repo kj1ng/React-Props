@@ -7,7 +7,7 @@ import React from 'react'
 // import Image from './components/Image'
 // import Card from 'react-bootstrap/Card';
 
-import Player from './components/Player'
+import PlayerList from './components/Player'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
@@ -18,7 +18,7 @@ return(
     <div className = "App">
 
 
-<Player />
+<PlayerList />
       </div>
 )
 }

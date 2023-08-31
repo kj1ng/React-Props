@@ -7,27 +7,15 @@ const PlayerList = () => {
   return (
     <div>
  {
-  playerData.map(baller=>{
+  playerData.map((baller, key)=>{
    return(
-    <Player Photo={baller.Photo} Name={baller.Name} Team={baller.Team} Nationality={baller.Nationality} JerseyNumber={baller.JerseyNumber} Age={baller.Age} />
+    <Player key={baller.id}  {...baller} />
   
-    // <Card.Body>
-    // <Card.Img variant="top" src={baller.Photo} />
-    //   <Card.Title>{baller.Name}</Card.Title>
-    //   <Card.Title>{baller.Team}</Card.Title>
-    //   <Card.Title>{baller.Nationality}</Card.Title>
-    //   <Card.Title>{baller.JerseyNumber}</Card.Title>
-    //   <Card.Title>{baller.Age}</Card.Title>
-    //   <Card.Text>
-    //     He is a professoinal footballer.
-    //   </Card.Text>
-    // </Card.Body>  )
    )
   })
  }
 
-{/* 
-</Card> */}
+
 
     </div>
 

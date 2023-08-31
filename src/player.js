@@ -3,6 +3,7 @@ export const playerData =
 
 [
 {
+    id: 1,
     Name: 'Lionel Messi',
     Team: "Inter Miami",
     Nationality: "Argentine",
@@ -12,6 +13,7 @@ export const playerData =
 },
 
 {
+    id: 2,
     Name: 'Cristano Ronaldo',
     Team: "Al Nassr",
     Nationality: "Portugese",
@@ -21,6 +23,7 @@ export const playerData =
 },
 
 {
+    id: 3,
     Name: 'Erlind Halaand',
     Team: "Manchester City",
     Nationality: "Norwegian",
@@ -30,6 +33,7 @@ export const playerData =
 },
 
 {
+    id: 4,
     Name: 'Kylian Mbappe',
     Team: "PSG",
     Nationality: "French",
