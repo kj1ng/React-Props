@@ -1,6 +1,6 @@
 import React from 'react';
 import { playerData } from '../player'
-import Player from './components/Player'
+import Player from './Player'
 // import Card from 'react-bootstrap/Card';
 
 const PlayerList = () => {

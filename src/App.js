@@ -7,7 +7,7 @@ import React from 'react'
 // import Image from './components/Image'
 // import Card from 'react-bootstrap/Card';
 
-import PlayerList from './components/Player'
+import PlayerList from './components/PlayerList'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
